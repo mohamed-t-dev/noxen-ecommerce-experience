@@ -1,6 +1,6 @@
 # Noxen Studio
 
-Noxen is an editorial React e-commerce concept for a fictional home-fragrance brand. It combines product discovery, interactive storytelling, cart state, responsive navigation, and accessible controls in one focused experience.
+Noxen is an editorial React e-commerce concept for a fictional home-fragrance brand. It combines product discovery, interactive storytelling, cart state, desktop navigation, and accessible controls in one focused experience.
 
 > Portfolio concept: Noxen is fictional. Products, prices, account access, newsletter submission, and checkout behavior are simulated.
 
@@ -8,24 +8,24 @@ Noxen is an editorial React e-commerce concept for a fictional home-fragrance br
 
 **Goal:** Preserve a magazine-like visual identity while keeping product exploration and cart actions understandable.
 
-**My role:** Interface design, React implementation, interaction design, responsive styling, accessibility details, and documentation.
+**My role:** Interface design, React implementation, interaction design, accessibility details, and documentation.
 
-**Outcome:** A responsive storefront demonstration with connected product, ritual, story, cart, and account states.
+**Outcome:** A desktop storefront demonstration with connected product, ritual, story, cart, and account states.
 
 ## Screenshots
 
-| Desktop | Mobile |
+| Homepage | Product collection |
 | --- | --- |
-| ![Noxen desktop homepage](docs/screenshots/overview-desktop.png) | ![Noxen mobile homepage](docs/screenshots/overview-mobile.png) |
+| ![Noxen desktop homepage](docs/screenshots/overview-desktop.png) | ![Noxen desktop product collection](docs/screenshots/collection-desktop.png) |
 
 ## Key functionality
 
-- Responsive product collection with selectable featured products
+- Product collection with selectable featured products
 - Cart drawer with quantity controls and calculated totals
 - Interactive ritual selector and product-story sections
-- Mobile navigation, account dialog, and newsletter feedback
+- Account dialog and newsletter feedback
 - Keyboard-friendly controls, descriptive labels, and dialog semantics
-- Responsive layouts that preserve the editorial hierarchy
+- Desktop layouts that preserve the editorial hierarchy
 
 ## Architecture and decisions
 

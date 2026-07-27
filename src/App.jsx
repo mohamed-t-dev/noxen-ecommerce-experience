@@ -569,7 +569,7 @@ function App() {
         </div>
       </section>
 
-      <footer><a className="logo" href="#top">Noxen<span /></a><p>Botanical atmosphere for every room.</p><div><a href="#collection">Shop</a><a href="#science">Science</a><a href="#learn">Learn</a></div><small>© 2026 NOXEN — fictional concept</small></footer>
+      <footer><a className="logo" href="#top">Noxen<span /></a><p>Botanical atmosphere for every room.</p><div><a href="#collection">Shop</a><a href="#science">Science</a><a href="#learn">Learn</a></div><small>© 2026 NOXEN</small></footer>
 
       {menuOpen && <div className="mobile-menu" role="dialog" aria-modal="true"><button aria-label="Close menu" onClick={() => setMenuOpen(false)}><X /></button><a className="logo" href="#top" onClick={() => setMenuOpen(false)}>Noxen<span /></a><nav><a href="#collection" onClick={() => setMenuOpen(false)}>Shop</a><a href="#science" onClick={() => setMenuOpen(false)}>Science</a><a href="#learn" onClick={() => setMenuOpen(false)}>Learn</a></nav></div>}
 

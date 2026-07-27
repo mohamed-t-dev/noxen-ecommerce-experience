@@ -60,12 +60,6 @@ npm run build
 
 GitHub Actions runs these checks for every pushed branch and pull request.
 
-## Limitations
-
-- No production authentication, inventory, payments, or order processing
-- Cart state is browser-local and resets after a reload
-- Products and editorial stories are fictional demonstration content
-
 ## Assets and reuse
 
 See [ASSETS.md](ASSETS.md) for asset notes and [LICENSE](LICENSE) for reuse terms.

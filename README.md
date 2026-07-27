@@ -2,11 +2,11 @@
 
 # Noxen Studio
 
-**A cinematic commerce experience for a fictional home-fragrance studio.**
+**A cinematic commerce experience for a modern home-fragrance studio.**
 
 ![React](https://img.shields.io/badge/React-19-C15F3C?style=flat-square&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-Frontend-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Portfolio_Concept-171717?style=flat-square)
+![Project](https://img.shields.io/badge/Project-Web_Experience-171717?style=flat-square)
 
 </div>
 
@@ -18,7 +18,7 @@ Noxen combines editorial storytelling with practical storefront interactions. Pr
 
 | Focus | Contribution | Result |
 | --- | --- | --- |
-| Preserve visual character while keeping commerce actions clear | Interface design, React implementation, interaction design, accessibility, and documentation | A focused storefront demonstration connecting product, story, ritual, cart, and account states |
+| Preserve visual character while keeping commerce actions clear | Interface design, React implementation, interaction design, accessibility, and documentation | A focused storefront experience connecting product, story, ritual, cart, and account states |
 
 ## Interface preview
 
@@ -40,7 +40,7 @@ Noxen combines editorial storytelling with practical storefront interactions. Pr
 - Product data remains separate from interaction state and can be validated independently.
 - A focused application shell coordinates featured products, cart state, dialogs, and story interactions.
 - Native buttons, labels, and dialog semantics support accessible interaction.
-- Authentication, newsletter submission, and checkout remain local simulations.
+- Authentication, newsletter submission, and checkout are interface-only states and are not connected to production services.
 
 ## Technology
 
@@ -63,9 +63,9 @@ npm run build
 
 GitHub Actions runs these checks for every pushed branch and pull request.
 
-## Project note
+## Implementation note
 
-> Noxen is a fictional portfolio brand. Products, prices, account access, newsletter submission, and checkout behavior are simulated.
+> Account, newsletter, and checkout interactions are front-end interface states.
 
 ## Assets and usage
 
